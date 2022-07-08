@@ -1,0 +1,21 @@
+.base64 {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 340px;
+    border: 1px solid rgba(139, 139, 139, 0.39);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.zoom {
+    position: absolute;
+    transform: scale(1.5);
+    top: 100px;
+    -webkit-box-shadow: 10px 10px 58px -24px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 58px -24px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 58px -24px rgba(0, 0, 0, 0.75);
+}
+
+.card {
+    max-width: 740px;
+}

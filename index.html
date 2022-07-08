@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Conversor base64</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/plugin/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="src/plugin/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="src/js/script.js" defer></script>
+    <meta name="theme-color" content="#7952b3">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand">Conversor de imagem em base64</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container py-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card mb-3 mx-auto">
+                    <div class="row g-0">
+                        <div class="col-md-5">
+                            <p class="text-center text-muted">Preview</p>
+                            <img src="" class="img-fluid rounded-start" id="preview">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <div>
+                                    <b>Arquivo:</b> <span id="img-name"></span>
+                                </div>
+                                <div>
+                                    <b>Tamanho:</b> <span id="img-size"></span>
+                                </div>
+                                <div class="code">
+                                    <b>Base64:</b>
+                                    <p id="img-base" class="card-text base64"></p>
+                                    <input class="form-control" type="file" id="arquivo">
+                                </div>
+                                <button id="copiar" type="button"
+                                    class="btn btn-primary btn-sm m-2 float-end">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
