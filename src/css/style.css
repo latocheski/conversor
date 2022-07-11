@@ -1,3 +1,14 @@
+.container:after {
+    content: '';
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: #116699;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
 .base64 {
     overflow-x: hidden;
     overflow-y: auto;
@@ -7,15 +18,22 @@
     padding: 3px;
 }
 
-.zoom {
-    position: absolute;
-    transform: scale(1.5);
-    top: 100px;
-    -webkit-box-shadow: 10px 10px 58px -24px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 58px -24px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 58px -24px rgba(0, 0, 0, 0.75);
+.imagem {
+    max-height: 430px;
+    border-radius: 5px;
 }
 
-.card {
-    max-width: 740px;
+p.base64 {
+    color: rgb(73, 73, 73);
+    background: #e9ecef;
+}
+
+.embed {
+    width: 100%;
+    min-height: 65vh;
+}
+
+.base64-decode {
+    width: 100%;
+    height: 435px;
 }
