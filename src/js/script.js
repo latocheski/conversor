@@ -10,7 +10,7 @@ window.onload = () => {
             txtbase.innerHTML = preview.src.split(',')[1]
 
             if (preview.src.split(',')[0].includes("pdf"))
-                preview.src = "./pdf.jpg"
+                preview.src = "./src/img/pdf.jpg"
                 
         }
         reader.readAsDataURL(this.files[0])
